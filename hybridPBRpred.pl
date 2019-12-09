@@ -3,10 +3,10 @@
 $proID=$ARGV[0];
 print $proID."\n";
 
-if(-e "ourHybrid/"){
+if(-e "hybridPBRpred/"){
 	;
 }else{
-	system "mkdir ourHybrid/";
+	system "mkdir hybridPBRpred/";
 }
 
 open DISO,"disoRDPbind/$proID.txt";
