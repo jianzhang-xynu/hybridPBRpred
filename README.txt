@@ -17,7 +17,7 @@ to represent the predictions of different proteins.
 For instance, the users can use the following command to calculate
 predictions of the protein DP00807.
 
-$ ./ourHybrid.pl DP00807
+$ ./hybridPBRpred.pl DP00807
 
 We are very grateful for bug reports! 
 Please contact us at jianzhang@xynu.edu.cn
